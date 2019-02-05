@@ -9,18 +9,12 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-def main():
-    pass
 n, m = map(int, input().split())
 a=[]
 b=[]
 count=0
-for i in range(0,n):
-    z=input()
-    a.append(z)
-for i in range(0,m):
-    z=input()
-    b.append(z)
+a= input().split()
+b= input().split()
 for i in range(0,n):
     for j in range(0,m):
         if (a[i]==b[j]):
@@ -29,5 +23,3 @@ if (count==m):
     print ("YES")
 else:
     print ("NO")
-if __name__ == '__main__':
-    main()
