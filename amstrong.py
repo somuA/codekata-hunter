@@ -8,6 +8,6 @@ for i in range(0,len(l)):
 for i in range(0,len(l)):
     sum=sum+(l1[i]**lenth)
 if sum==int(n):
-    print('YES')
+    print('yes')
 else:
-    print('NO')
+    print('no')
